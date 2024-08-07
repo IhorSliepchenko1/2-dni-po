@@ -1,0 +1,126 @@
+body {
+  background-color: #242424;
+}
+input {
+  outline: 0;
+}
+
+.layout {
+  padding: 5px;
+  display: grid;
+  margin-inline: auto;
+}
+
+.file-panel {
+  display: grid;
+  justify-content: start;
+  gap: 10px;
+}
+
+.header {
+  display: flex;
+  align-items: self-start;
+  justify-content: space-between;
+  border-bottom: 1px solid white;
+  position: relative;
+  width: 100%;
+  padding: 5px;
+}
+
+.time-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px;
+  input {
+    max-width: 43px;
+  }
+}
+
+.time-wrapper {
+  display: flex;
+  justify-content: start;
+  text-align: center;
+  color: white;
+}
+
+.wrapper {
+  display: grid;
+  justify-content: center;
+  gap: 10px;
+}
+
+.name {
+  color: white;
+}
+
+._main-class-slot {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+input {
+  background: rgb(66, 66, 66);
+  outline: 0;
+  border: 0;
+  border: 1px solid teal;
+  padding: 5px;
+}
+
+input::placeholder {
+  text-align: center;
+}
+
+.main {
+  display: grid;
+  gap: 10px;
+
+  button {
+    outline: 0;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 3px;
+    background: rgb(1, 148, 148);
+    color: white;
+    transition: 0.2s ease-in-out;
+
+    &:hover {
+      background: teal;
+    }
+  }
+}
+
+.textarea {
+  background: rgb(66, 66, 66);
+  min-height: 50px;
+  max-height: 200px;
+  min-width: 170px;
+  max-width: 170px;
+  border: 1px solid teal;
+}
+
+table,
+td,
+th,
+tr {
+  border: 1px solid white;
+  border-collapse: collapse;
+  font-size: 13px;
+  color: wheat;
+  text-align: center;
+}
+
+thead {
+  background-color: teal;
+  position: sticky;
+  top: 0;
+}
+
+table {
+  margin-top: 40px;
+}
+
+.mini {
+  width: 170px;
+}
